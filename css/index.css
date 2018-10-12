@@ -81,4 +81,8 @@ input{
 }
 button:hover{
     background-color:#ecda6f;
-}		
+}	
+.admin{
+    text-decoration: none;
+    color: white;
+}	
