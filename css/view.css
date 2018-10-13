@@ -7,6 +7,7 @@ ul.menu{
     height: 50%;
     /* position: center; */
     position: sticky;
+    /* display: block; */
 }
 
 ul li {
@@ -14,8 +15,9 @@ ul li {
     padding: 18px 16px;
     font-size: 24px;
     margin-left: 5%;
+    /* display: block; */
 }
-ul li a{
+/* ul li a{
     color: white;
     text-decoration: none;
     border-right: 1px solid white;
@@ -23,14 +25,30 @@ ul li a{
     text-align: center;
     transition: 0.3s;
         
+} */
+.btn{
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid white;
+    /* display:inline-block; */
+    text-align: center;
+    transition: 0.3s;
+}
+a{
+    text-decoration: none;
+    color :white;
+}
+.btn:hover{
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid white;
+    display:inline-block;
+    text-align: center;
+    transition: 0.3s;
+    background-color: transparent;
 }
 
-ul li a:hover{
-    background-color: #ecda6f;
-}
-ul li a:active{
-    background-color: black;
-}
+
 img{
     width: 100px;
     height: 100px;
@@ -41,7 +59,6 @@ header{
         font-style:oblique
     }
 .table1{
-    /* float:right; */
     margin-top:5%;
     width: 80%;
     margin-left:8%;
@@ -79,5 +96,31 @@ h1{
     
 }
 button:hover{
-background-color:#ecda6f;
-}		
+background-color:green;
+}	
+.input{
+    border-radius:8px; 
+    font-size:20px; 
+    width:40%; 
+    margin-left:5%; 
+    margin-top:2%;
+    background-color: #50394c;
+    color: white;
+}	
+
+.form1{
+    margin-left: 30%;
+}
+#signup{
+    margin-top: 5%;
+    margin-left: 20%;
+
+}
+.search{
+    padding: 6px;
+    border: none;
+    margin-top: 4px;
+    margin-right: 16px;
+    font-size: 25px;
+    width: 40%;
+}
