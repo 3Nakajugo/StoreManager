@@ -1,0 +1,204 @@
+ul.menu{
+    background-color: #50394c;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 50%;
+    /* position: center; */
+    position: sticky;
+    /* display: block; */
+}
+
+ul li {
+    float: left;
+    padding: 18px 16px;
+    font-size: 24px;
+    margin-left: 5%;
+    /* display: block; */
+}
+/* ul li a{
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid white;
+    display:inline-block;
+    text-align: center;
+    transition: 0.3s;
+        
+} */
+.btn{
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid white;
+    /* display:inline-block; */
+    text-align: center;
+    transition: 0.3s;
+}
+a{
+    text-decoration: none;
+    color :white;
+}
+.btn:hover{
+    color: white;
+    text-decoration: none;
+    border-right: 1px solid white;
+    display:inline-block;
+    text-align: center;
+    transition: 0.3s;
+    background-color: transparent;
+}
+
+
+img{
+    width: 100px;
+    height: 100px;
+}
+header{
+        font-family: 'Source Sans Pro', sans-serif; 
+        font-size: 30px;
+        font-style:oblique
+    }
+.table1{
+    margin-top:5%;
+    width: 80%;
+    margin-left:8%;
+    font-family: cursive;
+    font-size: 15px;
+}
+table, td,th{
+        border: 1px solid #50394c;
+        font-family:  'Arial Narrow';
+        font-size: 20px;
+        border-collapse: collapse; 
+    } 
+th, td{
+        padding: 20px;
+    }
+h1{
+    font-size: 40px;
+    transition-duration: 1s;
+    font-weight: 200;
+    color: #50394c;
+    text-align: center;
+}
+.login-button{
+    appearance: none;
+    border : 2px solid #50394c;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 18px;
+    transition-duration: 0.25s;
+    align-self: center;
+    /* margin-bottom: 100%; */
+    
+}
+button:hover{
+background-color:green;
+}	
+.input{
+    border-radius:8px; 
+    font-size:20px; 
+    width:40%; 
+    margin-left:5%; 
+    margin-top:2%;
+    background-color: #50394c;
+    color: white;
+}	
+
+.form1{
+    margin-left: 30%;
+}
+#signup{
+    margin-top: 5%;
+    margin-left: 20%;
+
+}
+.search{
+    padding: 6px;
+    border: none;
+    margin-top: 4px;
+    margin-right: 16px;
+    font-size: 25px;
+    width: 40%;
+}
+.pbutton{
+    border : 2px solid #50394c;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 18px;
+    transition-duration: 0.25s;
+    align-self: center;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.delete{
+    background-color: red;
+
+}
+.mybtn:hover, .mybtn:focus{
+    background-color: green;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 300px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.drpdown{
+    display: inline-block;
+    margin-left: 10%;
+}
+.drpcontent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 0;
+}
+.createbtn{
+    margin-left: 50%;
+}
+.save{
+    float: right;
+    margin-top: 5%;
+    margin-right: 20%;
+}
