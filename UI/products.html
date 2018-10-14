@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/view.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header><img src="../images/trolley.png" alt="">Store Manager</header>
+        <div>
+            <ul class="menu">
+                <li><a href="products.html" class="btn">Products</a></li>
+                <li><a href="admin_records.html" class="btn">Sell Records</a></li>
+                <li><a href="signup.html" class="btn">New Attendant</a></li>
+                <li><a href="adminlogin.html" class="btn">Log Out</a></li>
+                <span class="search">
+                    <li><input type="text" placeholder="Search.."></li>
+                    <button type="submit">Submit</button>
+                </span>
+            </ul>
+        </div>
+        <div>
+            <h1>Available Products</h1>
+            <div class="drpdown">
+                <input type="submit" onclick="drop()" name="btn-signup" value="Categories" class="pbutton" />
+                <div class="drpcontent">
+                    <a>plastics</a>
+                    <a>drinks</a>
+                    <a>eats</a>
+                    <a>cosmetics</a>
+                    <a>funiture</a>
+                </div>
+            </div>
+            <input type="submit" name="btn-signup" value="Delete" onclick="clickAlert()" class="pbutton" id="delete" />
+            <a href="../UI/modify.html"><input type="submit" name="btn-signup" value="Modify" class="pbutton" /></a>
+            <input type="submit" name="btn-signup" value="Create" class="pbutton" id="mybtn" />
+
+            <table class="table1">
+                <tr>
+                    <th>Choose</th>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="chk" /></td>
+                    <td>television sets</td>
+                    <td>2</td>
+                    <td>100000</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="chk" /></td>
+                    <td>television set</td>
+                    <td>2</td>
+                    <td>100000</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="chk" /></td>
+                    <td>television set</td>
+                    <td>2</td>
+                    <td>100000</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="chk" /></td>
+                    <td>television set</td>
+                    <td>2</td>
+                    <td>100000</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="chk" /></td>
+                    <td>television set</td>
+                    <td>2</td>
+                    <td>100000</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="chk" /></td>
+                    <td>television set</td>
+                    <td>2</td>
+                    <td>100000</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="chk" /></td>
+                    <td>television set</td>
+                    <td>2</td>
+                    <td>100000</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="chk" /></td>
+                    <td>television set</td>
+                    <td>2</td>
+                    <td>100000</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="chk" /></td>
+                    <td>television set</td>
+                    <td>2</td>
+                    <td>100000</td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="chk" /></td>
+                    <td>television set</td>
+                    <td>2</td>
+                    <td>100000</td>
+                </tr>
+
+            </table>
+        </div>
+        <footer>Copyright © 2018 Reserved</footer>
+    </div>
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+            <table>
+                <span class="close">&times;</span>
+                <tr>
+                    <td> <input type="text" placeholder="Product" class="input" /></td>
+                    <td><input type="text" placeholder="Quantity" class="input" /></td>
+                    <td><input type="text" placeholder="Price" class="input" /></td>
+                </tr>
+            </table>
+            <div id="createtbtn">
+                <input type="submit" name="btn-create" value="Create" class="pbutton" />
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function clickAlert() {
+            window.alert("Are you sure?");
+        }
+        // Get the modal
+        var modal = document.getElementById('myModal');
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("mybtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        function drop() {
+            document.getElementByClassName("drpcontent").classList.toggle("show");
+        }
+    </script>
+</body>
+
+</html>
