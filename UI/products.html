@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>View products</title>
     <link rel="stylesheet" href="../css/view.css">
 </head>
 
@@ -27,14 +23,15 @@
         <div>
             <h1>Available Products</h1>
             <div class="drpdown">
-                <input type="submit" onclick="drop()" name="btn-signup" value="Categories" class="pbutton" />
-                <div class="drpcontent">
-                    <a>plastics</a>
-                    <a>drinks</a>
-                    <a>eats</a>
-                    <a>cosmetics</a>
-                    <a>funiture</a>
-                </div>
+                <form action="">
+                    <input list="drpcontent" type="search" placeholder="Categories" class="pbutton" />
+                    <datalist id="drpcontent">
+                        <option value="plastics"></option>
+                        <option value="drinks"></option>
+                        <option value="funiture"></option>
+                        <option value="cosmetics"></option>
+                    </datalist>
+                </form>
             </div>
             <input type="submit" name="btn-signup" value="Delete" onclick="clickAlert()" class="pbutton" id="delete" />
             <a href="../UI/modify.html"><input type="submit" name="btn-signup" value="Modify" class="pbutton" /></a>
@@ -157,9 +154,6 @@
             if (event.target == modal) {
                 modal.style.display = "none";
             }
-        }
-        function drop() {
-            document.getElementByClassName("drpcontent").classList.toggle("show");
         }
     </script>
 </body>
