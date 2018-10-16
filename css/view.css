@@ -5,9 +5,8 @@ ul.menu{
     padding: 0;
     overflow: hidden;
     height: 50%;
-    /* position: center; */
     position: sticky;
-    /* display: block; */
+
 }
 
 ul li {
@@ -38,7 +37,9 @@ a{
     transition: 0.3s;
     background-color: transparent;
 }
-
+.main-container{
+    width: 100%;
+}
 
 img{
     width: 100px;
@@ -179,38 +180,32 @@ background-color:green;
 .createbtn{
     margin-left: 50%;
 }
+
 .save{
     float: right;
     margin-top: 5%;
     margin-right: 20%;
 }
-@media (min-width: 320px) and (max-width: 480px) {
-    .main-container{
-        width:200;
-        font-size: 20px;
-        float: none;
-    }
-    .wapper{
-        width:200px;
-        font-size: 20px;
-        background: #000;
-        float: none;
-    }
 
-}
-@media only screen and (max-width:600px){
-    .main-container{
-        width:500px;
-        font-size: 30px;
-        float: none;
-    }
-    .wapper{
-        width:500px;
-        font-size: 30px;
-        background: #000;
-        float: none;
+@media screen and (max-width:1000px){
+    .table1{
+width: 60%;
+margin-left: 3%;
+margin-top:2%;
+font-family: cursive;
+font-size: 20px;
     }
 }
+@media screen and (max-width:480px){
+    .table1{
+width: 40%;
+margin-left: 0%;
+margin-top:1%;
+font-family: cursive;
+font-size:10px;
+    }
+}
+
 /* @media only screen and (min-width: 768px) {
 
 }
