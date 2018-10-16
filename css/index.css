@@ -9,7 +9,6 @@
 	height: 85%;
     margin-top: 50px;
     margin-bottom: 100px;
-	overflow: hidden;
 }
 img{
 width: 100px;
@@ -85,4 +84,5 @@ button:hover{
 .admin{
     text-decoration: none;
     color: white;
-}	
+}
+	
