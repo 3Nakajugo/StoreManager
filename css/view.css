@@ -180,6 +180,9 @@ background-color:green;
 }
 
 @media screen and (max-width:300px){
+    .table-create{
+        margin-left: 2%;
+    }
     .form1{
         background-color: rgba(59, 62, 94, 0.021);
         float: left;
@@ -263,6 +266,9 @@ h1{
     }
 }
 @media screen and (max-width:600px){
+    .table-create{
+        margin-left: 4%;
+    }
     ul li {
         float: left;
         padding: 5px 10px;
@@ -339,6 +345,24 @@ h1{
         text-align: center;
     }
 
+}
+
+@media screen and (min-width:600px){
+    .input{
+        font-family: 'Source Sans Pro', sans-serif;
+        display: block;
+        appearance: none;
+        border: 1px solid #3C3E52;
+        background-color: white;
+        width: 180px;
+        border-radius: 3px;
+        padding: 10px 10px;
+        margin: 0 auto 10px auto;
+        text-align: auto;
+        font-size: 15px;
+        transition-duration: 0.25s;
+        font-weight: 300px;
+    }
 }
 
 
