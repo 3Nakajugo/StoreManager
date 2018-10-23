@@ -19,7 +19,7 @@
     <div class="form1">
 
 
-        <form action="" method="POST" autocomplete="on" onsubmit="myFunction()">
+        <form action="products.html" method="POST" autocomplete="on">
             <input type="text" name="fname" placeholder="First Name" maxlength="15" class="input" value="" required /><br>
             <input type="text" name="lname" placeholder="Last Name" class="input" maxlength="15" value="" required /><br>
             <input type="text" name="username" placeholder="Username" class="input" value="" maxlength="30" required /><br>
@@ -29,11 +29,11 @@
                     value="Male" style="margin-left:5%; font-style: oblique; font-size: 20px" />Male<input type="radio"
                     name="sex" value="Female" checked style="margin-left:10%;font-style: oblique; font-size: 20px" />Female</p>
             <p style="font-style: oblique; font-size: 20px">Date of birth</p>
-            <input type="date" name="dob" placeholder="Date of Birth" maxlength="15" value="" class="input" />
-
+            <input type="date" name="dob" placeholder="Date of Birth" maxlength="15" value="" class="input" /><br>
+            <input type="submit" name="btn-signup" onclick="myFunction()" value="Signup" class="login-button" id="signup" />
 
         </form>
-        <input type="submit" name="btn-signup" onclick="myFunction()" value="Signup" class="login-button" id="signup" />
+
         <hr />
     </div>
 
