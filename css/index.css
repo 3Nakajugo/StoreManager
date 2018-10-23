@@ -126,3 +126,46 @@ input{
         width: 195px;
     }
 }
+
+@media screen and (max-width:270){
+    h2{
+        transition-duration: 1s;
+        font-weight: 20;
+        color:black;
+        float: left;
+        font-size: 12px;
+    }
+    img{
+        width: 90px;
+        height: 90px;
+        float: auto;
+        margin-left: 20%;
+        margin-bottom: 2%;
+        }
+        .input:focus{
+            width: 20px;
+        }
+    .container{
+        padding: 2px 0;
+        position: center;
+        margin-top: 0%;
+        margin-left: 0%;
+        background-color: #ffffff05;
+        border-radius: 2px
+    }
+    input{
+        font-family: 'Source Sans Pro', sans-serif;
+        display: block;
+        appearance: none;
+        border: 1px solid white;
+        background-color: white;
+        width: 50px;
+        border-radius: 1px;
+        padding: 1px 1px;
+        margin: 0 auto 5px auto;
+        text-align: left;
+        font-size: 5px;
+        transition-duration: 0.25s;
+        font-weight: 300px;
+        }
+}
