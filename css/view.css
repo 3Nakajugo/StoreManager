@@ -80,6 +80,9 @@ table, td,th{
 th, td{
         padding: 20px;
     }
+input[type = radio]{
+    width: 40%;
+}
 h1{
     font-size: 40px;
     transition-duration: 1s;
