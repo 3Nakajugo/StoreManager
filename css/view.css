@@ -235,16 +235,16 @@ background-color:green;
         font-size: 5px;
         overflow-x: auto;
     }
-    table, td,th{
+    table, tbody,tr, td,th{
         border: 1px solid #3C3E52;;
         font-family:  'Arial Narrow';
-        /* font-size: 8px; */
         border-collapse: collapse; 
+        display: block;
     } 
-th, td{
-        padding: 5px;
+    td{
+        padding: 2x;
     }
-.pbutton{
+    .pbutton{
         border : 1px solid #3C3E52;;
         background-color: white;
         padding: 2px 5px;
@@ -257,12 +257,13 @@ th, td{
         margin-top: 1%;
         margin-left: 1%;
     }
-h1{
+    h1{
         font-size: 15px;
         transition-duration: 1s;
         font-weight: 200;
         color: #3C3E52;;
         text-align: center;
+        margin-left: 0%;
     }
 }
 @media screen and (max-width:600px){
@@ -315,15 +316,17 @@ h1{
         font-size: 7px;
         overflow-x: auto;
     }
-    table, td,th{
+    table, td,th,tbody,tr{
         border: 1px solid #3C3E52;;
         font-family:  'Arial Narrow';
         /* font-size: 8px; */
         border-collapse: collapse; 
+        display: block;
     } 
 th, td{
         padding: 5px;
     }
+
 .pbutton{
         border : 1px solid #3C3E52;;
         background-color: white;
@@ -363,6 +366,18 @@ h1{
         transition-duration: 0.25s;
         font-weight: 300px;
     }
+    .table1{
+        margin-top:2%;
+        width: 30%;
+        margin-left:5%;
+        font-size: 7px;
+        overflow-x: auto;
+    }
+    table, td,th,tbody,tr{
+        border: 1px solid #3C3E52;;
+        font-family:  'Arial Narrow';
+        border-collapse: collapse; 
+    } 
 }
 
 
