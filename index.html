@@ -6,28 +6,29 @@
 </head>
 
 <body>
-    <header><img src="images/trolley.png" alt="">Store Manager</header>
-    <div class='main-container'>
-        <section>
-            <div class="container">
-                <!-- <img src="C:\Users\USA\Desktop\bootcamp\StoreManager\images\trolley.png" alt="trolley" -->
-                <h1>welcome</h1>
-                <form class="form">
-                    <input class="input" type="text" placeholder="username" required> <br>
-                    <input class="input" type="password" placeholder="password" required> <br>
 
-                </form>
-                <a href="UI/view.html"> <button type="submit" class="login-button">login</button></a>
-                <br>
+    <div class='main-container'>
+        <div class="container">
+            <div>
+                <img src="images/store.png" alt="">
             </div>
-            <div id="adminlogin" style="text-align:center;">
-                <a href="UI/adminlogin.html" class="admin">Admin login</a>
+            <h2>Attendant login</h2>
+            <form autocomplete="on" action="UI/view.html">
+                <input class="input" type="text" placeholder="username" required> <br>
+                <input class="input" type="password" placeholder="password" required> <br>
+                <input type="submit" class="login-button" id="attendant" value="login">
+            </form>
+            <div id="other-button">
+                <a href="UI/adminlogin.html"> <input type="submit" class="login-button" value='Store Manager'></a>
             </div>
-        </section>
+        </div>
+
     </div>
 
 
-    <script src="" async defer></script>
+    <script>
+
+    </script>
 </body>
 
 </html>
